@@ -2,9 +2,13 @@
   "name": "vue-component-lib",
   "version": "0.1.0",
   "private": true,
+  "files": [
+    "dist/*",
+    "src/*"
+  ],
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build --target lib --name vue-component-lib src/index.js",
+    "prepublishOnly": "$npm_execpath build"
   },
   "dependencies": {
     "core-js": "^3.6.5",
