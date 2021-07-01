@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "files": [
-    "dist/*",
-    "src/*"
+    "dist",
+    "src"
   ],
   "main": "dist/vue-component-lib.common.js",
   "scripts": {
