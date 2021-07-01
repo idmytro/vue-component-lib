@@ -4,7 +4,7 @@
 
 <script>
 export default {
-    name: 'my-button',
+    name: 'MyButton',
     created () {
         console.log('created my button');
     }
