@@ -6,8 +6,10 @@
     "dist/*",
     "src/*"
   ],
+  "main": "dist/vue-component-lib.common.js",
   "scripts": {
     "build": "vue-cli-service build --target lib --name vue-component-lib src/index.js",
+    "b": "vue-cli-service build --target lib --inline-vue",
     "prepublishOnly": "$npm_execpath build"
   },
   "dependencies": {
